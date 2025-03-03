@@ -22,7 +22,7 @@ while True:
 
     #valida si hay manos
     if all_hands:
-        #que capture una por una
+        #que capture una por una 
         for hand in all_hands:
             op_dibujo.draw_landmarks(image,hand)
             una_mano_landmarks=hand.landmark
